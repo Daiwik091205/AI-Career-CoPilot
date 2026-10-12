@@ -1,0 +1,28 @@
+# Environment variables & secrets
+.env
+*.env.local
+
+# SQLite Database
+*.db
+student_career_app.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit run files
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
