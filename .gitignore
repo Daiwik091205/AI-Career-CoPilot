@@ -26,3 +26,19 @@ ENV/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Research papers, academic manuscripts, and paper build artifacts
+*.pdf
+*research_paper*
+*Research_Paper*
+*Case_Study*
+*case_study*
+RESEARCH_PAPER.md
+CASE_STUDY_REPORT.md
+build_ieee_6page_pdf.py
+build_case_study_pdf.py
+build_pdf.py
+generate_algorithm_flowchart.py
+generate_flowchart.py
+algorithm_flowchart.png
+methodology_flowchart.png

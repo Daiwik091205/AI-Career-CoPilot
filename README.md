@@ -2,7 +2,6 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg)](https://streamlit.io/)
-[![IEEE Research Paper](https://img.shields.io/badge/IEEE%20Format-6--Page%20Paper-00629B.svg)](./AI_Career_CoPilot_IEEE_6Page_Paper.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **An LLM-Driven System for Automated Skill-Gap Analysis, Dynamic Readiness Assessment, and Adaptive Career Preparation**  
@@ -20,9 +19,8 @@
 7. [Installation & Setup](#7-installation--setup)
 8. [Running the Application](#8-running-the-application)
 9. [Automated Testing Suite](#9-automated-testing-suite)
-10. [Academic Research Paper & Case Study](#10-academic-research-paper--case-study)
-11. [Threat Model & Sandbox Security](#11-threat-model--sandbox-security)
-12. [Authors & Faculty Mentorship](#12-authors--faculty-mentorship)
+10. [Threat Model & Sandbox Security](#10-threat-model--sandbox-security)
+11. [Authors & Faculty Mentorship](#11-authors--faculty-mentorship)
 
 ---
 
@@ -150,7 +148,6 @@ $$\alpha = 0.45, \quad \beta = 0.25, \quad \gamma = 0.15, \quad \delta = 0.15 \q
   - Secondary / Failover: OpenAI API (`gpt-4o-mini`)
   - Offline Heuristic: Deterministic regex and `difflib` keyword matching
 - **Code Execution Sandbox**: Python `ast` syntax tree traversal with restricted execution namespace
-- **Document Generation**: ReportLab & PyMuPDF (compilation of IEEE 2-column papers and case study reports)
 
 ---
 
@@ -231,17 +228,7 @@ python test_system.py
 
 ---
 
-## 10. Academic Research Paper & Case Study
-
-This repository includes the complete academic manuscript and empirical evaluation:
-- 📄 **IEEE 6-Page Research Paper**: [`AI_Career_CoPilot_IEEE_6Page_Paper.pdf`](./AI_Career_CoPilot_IEEE_6Page_Paper.pdf)  
-  *Title: "AI Career Co-Pilot: An LLM-Driven System for Automated Skill-Gap Analysis, Dynamic Readiness Assessment, and Adaptive Career Preparation"*
-- 📊 **Empirical Case Study Report**: [`AI_Career_CoPilot_Case_Study_Report.pdf`](./AI_Career_CoPilot_Case_Study_Report.pdf)
-- ⚙️ **Paper Compilation Script**: Run `python build_ieee_6page_pdf.py` to regenerate the pixel-perfect 6-page IEEE paper.
-
----
-
-## 11. Threat Model & Sandbox Security
+## 10. Threat Model & Sandbox Security
 
 The in-app coding sandbox implements defense-in-depth compile-time checks:
 1. **Banned AST Imports**: Scans `ast.Import` and `ast.ImportFrom` nodes to intercept `os`, `sys`, `subprocess`, `socket`, `shutil`, `ctypes`, and `builtins`.
@@ -251,7 +238,7 @@ The in-app coding sandbox implements defense-in-depth compile-time checks:
 
 ---
 
-## 12. Authors & Faculty Mentorship
+## 11. Authors & Faculty Mentorship
 
 - **Daiwik Keyur Mistry** — Undergraduate Researcher, Department of Computer Science and Engineering
 - **Ekansh J** — Undergraduate Researcher, Department of Computer Science and Engineering
